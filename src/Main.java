@@ -3,5 +3,6 @@ public class Main {
         ReservationManager reservationManager = new ReservationManager();
         UserInterface userInterface = new UserInterface(reservationManager);
         userInterface.start();
+        System.out.println("This is test");
     }
 }
